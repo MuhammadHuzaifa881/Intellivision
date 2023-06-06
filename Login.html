@@ -27,7 +27,7 @@
         </div>
         <div class="col-md-12 col-sm-12 col-lg-12">
           <div>
-            <label class="col-md-12 col-sm-12 col-lg-12 d-flex justify-content-center px">Reset<a href="#" class="link-info px-2">Forget Password</a></label>
+            <label class="col-md-12 col-sm-12 col-lg-12 d-flex justify-content-center px">Reset<a href="#" class="link-info px-2" onclick="nexttoForgetScreen()">Forget Password</a></label>
           </div>
           <div class="col-md-12 col-sm-12 col-lg-12">
             <label class="col-md-12 col-sm-12 col-lg-12 d-flex justify-content-center">Not Remember<a href="#" class="link-info px-2" onclick="nexttoSignup()">Signup</a></label>
@@ -51,6 +51,10 @@
     function nexttoSignup(){
       event.preventDefault()
       window.location.href="Signup.html";
+    }
+    function nexttoForgetScreen(){
+      event.preventDefault();
+      window.location.href="ForgetPassword.html"
     }
   </script>
 </body>

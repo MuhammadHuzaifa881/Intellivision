@@ -39,4 +39,11 @@ body{
     flex-wrap: nowrap;
     color: white;
 }
-
+#ForgetPasswordform{
+    background-color: #1A908F;
+    width: 22rem;
+    height: 22rem;
+    display: flex;
+    flex-wrap: nowrap;
+    color: white;
+}
