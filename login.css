@@ -1,0 +1,42 @@
+/* #12D879=green */
+/* 2435AB=blue */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#2435AB,#12D879);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#loginform{
+    background-color: #1A908F;
+    width: 20rem;
+    height: 18rem;
+    display: flex;
+    flex-wrap: nowrap;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.custom-footer{
+    background-color: #1A908F !important;
+    height: 2.3rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+}
+#signupform{
+    background-color: #1A908F;
+    width: 22rem;
+    height: 28rem;
+    display: flex;
+    flex-wrap: nowrap;
+    color: white;
+}
+
