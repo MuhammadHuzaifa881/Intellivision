@@ -52,8 +52,10 @@ input[type='email'],input[type='password'],input[type='text']{
     background-color: #12D879;
 }
 .nav-color a:hover{
-    color: #12D879;
+    color: white;
 }
 .nav-color a::after{
     color: #12D879;
 }
+
+  
