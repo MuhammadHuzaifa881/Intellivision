@@ -7,9 +7,11 @@
 }
 
 .backgroundImage{
-    background-image: url("./Pictures/gradient_2.jpg");
-    background-repeat: none;
+    background: url("./Pictures/gradient_2.jpg") no-repeat center center fixed;
     background-size: cover;
+    position: fixed;
+    background-repeat: no-repeat;
+    /* min-height: 100vh; */
 }
 .row {
      --bs-gutter-x: 0 !important;
@@ -24,16 +26,16 @@
     border-width: 0.25rem;
 }
 input[type='email'],input[type='password'],input[type='text']{
-    border-color: #12D879;
+    border-color: #646E9F;
 }
 #login{
-    color: white;
-    background-color: #2435AB;
+    color: #001647;
+    background-color: #12D879;
     border-radius: 2rem;
 }
 #Signupform{
     width: 400px;
-    height: 500px;
+    height: 550px;
     border-radius: 2rem;
     border-color:#12D879 ;
     border-width: 0.25rem;
@@ -50,6 +52,7 @@ input[type='email'],input[type='password'],input[type='text']{
 }
 .active{
     background-color: #12D879;
+    height:3rem
 }
 .nav-color a:hover{
     color: white;
@@ -57,5 +60,6 @@ input[type='email'],input[type='password'],input[type='text']{
 .nav-color a::after{
     color: #12D879;
 }
-
-  
+.nav-link{
+    padding-top: 16px;
+}
